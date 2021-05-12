@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "my-stack-for-recognition-turbines"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-8btxb8a5lfky"
+s3_prefix = "my-stack-for-recognition-turbines"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "MyDynamoDBTable=\"MyRekognitioNResultTable\" InputBucketNamePrefix=\"windturbine-pictures\" CustomLabelsEndpoint=\"arn:aws:rekognition:us-east-1:578019895775:project/NewLabelsForTurbines/version/NewLabelsForTurbines.2021-02-19T18.08.13/1613776094097\" MyEmailAdress=\"gozburak@amazon.com\" MyLabelListToBeNotified=\"icing,wear,corrosion\" ThresholdForNotification=\"75\""
