@@ -1,11 +1,7 @@
-## My Project
+## AI Driven Visual Inspection of Wind Turbines based on Drones Pictures
 
-TODO: Fill this README out!
+This repository provides the example SAM (Serverless Application Model) template and two AWS Lambda functions disucussed in the blog post AI Driven Visual Inspection of Wind Turbines based on Drones Pictures <link>.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
 
 ## Security
 
